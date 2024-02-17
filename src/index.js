@@ -12,7 +12,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <HelmetProvider>
+
+
+    
+             <HelmetProvider>
       <SettingsProvider>
         <BrowserRouter>
           <App />
